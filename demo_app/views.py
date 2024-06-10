@@ -51,7 +51,7 @@ class TestView(APIView):
             "username": user.username,
             "email": user.email,
         }
-        return Response({"user": user_data, "message": "Test view"})
+        return Response({"user": user_data, "message": "Test view sucess"})
 
 
 class Logout(APIView):
